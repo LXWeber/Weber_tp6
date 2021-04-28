@@ -61,6 +61,7 @@ public class DirectorioTelefonico {
         for(Long i: clientes){
             if(listaClientes.get(i).getDNI() == dni){
                 x=i;
+                break;
             }
         }
         return x;
